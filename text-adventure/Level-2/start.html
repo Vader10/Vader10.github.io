@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function cont(){
+        document.write("<button type='button'><a href=''>Continue</a></button>");
+      }
+      function err(){
+        var c=prompt("Code Incorrect","");
+        if(c=="00808008")cont();
+        else err();
+      }
+      function code(){
+        var c=prompt("Please enter code from Level 1.","");
+        if(c=="00808008")cont();
+        else err();
+      }
+      document.write("<h1>Welcome to Level 2</h1></br>");
+      code();
+    </script>
+  </head>
+  <body>
+    <p>click "continue" to start Level 2.</p>
+  </body>
+</html>
