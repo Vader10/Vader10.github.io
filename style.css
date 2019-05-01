@@ -6,7 +6,7 @@ body{
       .myButton{
       text-decoration: none;
       color:white;
-      border:1px solid black;
+      border:1px solid rgb(50,50,50);
       background-color: rgb(50,50,50);
       margin:1px;
       }
@@ -20,4 +20,7 @@ body{
       .bottom {
     position: fixed;
     bottom: 0;
+}
+ac{
+   text-align:center;
 }
