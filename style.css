@@ -1,28 +1,32 @@
-body{
-          font-family: "comic sans ms","comic sans",fantasy;
-          background-color: black;
-          color:white;
-      }
-      .myButton{
-      text-decoration: none;
-      color:white;
-      border:1px solid rgb(50,50,50);
-      background-color: rgb(50,50,50);
-      margin:1px;
-      }
-      .myButton:hover{
-        text-decoration: none;
-        border:0px;
-        margin:2px;
-      color:white;
-      background-color: rgb(150,150,150);
-      }
-      .bottom {
+body {
+    font-family: "comic sans ms","comic sans",fantasy;
+    background-color: black;
+    color: white;
+}
+.myButton {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(50,50,50);
+    background-color: rgb(50,50,50);
+    margin: 1px;
+}
+.myButton:hover {
+    text-decoration: none;
+    border: 0;
+    margin: 2px;
+    color: white;
+    background-color: rgb(150,150,150);
+}
+.bottom {
     position: fixed;
     bottom: 0;
-                width:100%;
-                background-color:rgb(50,50,50);
+    width: 100%;
+    background-color: rgb(50,50,50);
+
 }
-#ac{
-   text-align:center;
+#ac {
+    text-align: center;
+}
+.top{
+ border-down:2px;         
 }
