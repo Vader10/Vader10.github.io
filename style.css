@@ -38,3 +38,6 @@ body {
   text-decoration:none;
   margin:10px;
 }
+.top{
+ border-bottom:solid 2px white; 
+}
