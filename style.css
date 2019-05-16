@@ -41,3 +41,6 @@ body {
 .top{
  border-bottom:solid 2px white; 
 }
+.mainContent{
+ margin:50px; 
+}
