@@ -17,7 +17,7 @@ body {
   color: white;
   background-color: rgb(150,150,150);
 }
-.myButton:active {
+a.myButton:active {
   outline:none;
 }
 .bottom {
