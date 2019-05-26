@@ -17,6 +17,9 @@ body {
   color: white;
   background-color: rgb(150,150,150);
 }
+.myButton:active {
+  outline:none;
+}
 .bottom {
   position: fixed;
   bottom: 0;
